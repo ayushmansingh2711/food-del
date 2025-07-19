@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', poll: false, url: 'https://github.com/ayushmansingh2711/mejor-jenkins-project'
+                git branch: 'main', poll: false, url: 'https://github.com/ayushmansingh2711/react-jenikns-pine-line/tree/main/food-del/frontend'
             }
         }
 
